@@ -51,6 +51,34 @@ h3 {
   text-align: center;
   padding-bottom: 200px;
 }
+/* About Us Page */
+
+#interest {
+  padding-top: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#interest ul {
+  list-style-type: none;
+}
+
+#skills {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  list-style-type: none;
+}
+
+#skills ul {
+  list-style-type: none;
+}
+
+#interestPhoto {
+  display: flex;
+  justify-content: center;
+}
 
 footer {
   position: fixed;

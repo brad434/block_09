@@ -1,0 +1,84 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.project-section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.project:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.project-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.project-name {
+  margin: 0;
+}
+
+.project-description {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.project-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  background: #e7e7e7;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+  background: #d4d4d4;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100; /* ensures the footer stays above other content */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color: gray;
+}
+
+footer img {
+  height: 100px;
+  width: 200px;
+}
