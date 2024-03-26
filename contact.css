@@ -1,0 +1,84 @@
+body {
+  background-color: blue;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#links {
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  margin-top: 20vh;
+  margin-bottom: -20vh;
+  margin-left: 20px;
+  font-size: 40px;
+  color: yellow;
+}
+
+form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 40em;
+  width: 80em;
+  /* background-color: aliceblue; */
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 30px;
+}
+input {
+  width: 80%;
+  height: 20px;
+}
+
+button {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100; /* ensures the footer stays above other content */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color: gray;
+}
+
+footer img {
+  height: 100px;
+  width: 200px;
+}

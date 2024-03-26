@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -20,30 +20,24 @@
       <a href="./contact.html">Contact</a>
     </div>
   </nav>
-  <main>
-    <section id="interest">
-      <h1>My Interest</h1>
-      <ul>
-        <li>Programming Websites</li>
-        <li>Learning HTML CSS JS</li>
-        <li>Debugging</li>
-        <li>Communicating code with staff</li>
-      </ul>
-    </section>
 
-    <hr />
-    <section id="skills">
-      <h2>What I Am Talented In</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-      </ul>
-    </section>
-    <div id="interestPhoto">
-      <img src="https://media.tenor.com/YNSZgsldkAAAAAAe/larry-david-curb-your-enthusiasm.png" alt="">
+  <h2>Contact Me:</h2>
+
+  <form action="success.html">
+    <div id="container">
+
+      <label for="name">Name:</label>
+      <input type="text" placeholder="Place Name Here" id="name">
+
+      <label for="email">Email:</label>
+      <input type="email" placeholder="Place Email Here" id="email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" cols="80" rows="10"></textarea>
+
+      <button type="submit">Submit</button>
     </div>
-  </main>
+  </form>
 
   <footer>
     <img
